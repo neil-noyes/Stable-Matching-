@@ -56,7 +56,7 @@ class Stack{
 
     void Display() const;
 
-  //private:
+  private:
 
     void CopyToMe(const Stack& otherStack);
     /*Narrative: Makes deep copy of otherStack
